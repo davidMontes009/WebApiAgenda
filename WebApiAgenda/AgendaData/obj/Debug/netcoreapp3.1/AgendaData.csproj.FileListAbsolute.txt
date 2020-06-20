@@ -1,0 +1,14 @@
+C:\Users\davidmontes\source\repos\WebApiAgenda\AgendaData\bin\Debug\netcoreapp3.1\AgendaData.deps.json
+C:\Users\davidmontes\source\repos\WebApiAgenda\AgendaData\bin\Debug\netcoreapp3.1\AgendaData.dll
+C:\Users\davidmontes\source\repos\WebApiAgenda\AgendaData\obj\Debug\netcoreapp3.1\AgendaData.csprojAssemblyReference.cache
+C:\Users\davidmontes\source\repos\WebApiAgenda\AgendaData\obj\Debug\netcoreapp3.1\AgendaData.AssemblyInfoInputs.cache
+C:\Users\davidmontes\source\repos\WebApiAgenda\AgendaData\obj\Debug\netcoreapp3.1\AgendaData.AssemblyInfo.cs
+C:\Users\davidmontes\source\repos\WebApiAgenda\AgendaData\bin\Debug\netcoreapp3.1\AgendaEntities.dll
+C:\Users\davidmontes\source\repos\WebApiAgenda\AgendaData\bin\Debug\netcoreapp3.1\AgendaData.pdb
+C:\Users\davidmontes\source\repos\WebApiAgenda\AgendaData\bin\Debug\netcoreapp3.1\Agenda.Shared.dll
+C:\Users\davidmontes\source\repos\WebApiAgenda\AgendaData\bin\Debug\netcoreapp3.1\Agenda.Shared.pdb
+C:\Users\davidmontes\source\repos\WebApiAgenda\AgendaData\bin\Debug\netcoreapp3.1\AgendaEntities.pdb
+C:\Users\davidmontes\source\repos\WebApiAgenda\AgendaData\obj\Debug\netcoreapp3.1\AgendaData.csproj.CoreCompileInputs.cache
+C:\Users\davidmontes\source\repos\WebApiAgenda\AgendaData\obj\Debug\netcoreapp3.1\AgendaData.csproj.CopyComplete
+C:\Users\davidmontes\source\repos\WebApiAgenda\AgendaData\obj\Debug\netcoreapp3.1\AgendaData.dll
+C:\Users\davidmontes\source\repos\WebApiAgenda\AgendaData\obj\Debug\netcoreapp3.1\AgendaData.pdb

@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiAgenda</name>
+    </assembly>
+    <members>
+        <member name="M:WebApiAgenda.Controllers.AdminAgendaController.InsertCotact(WebApiAgenda.Models.ContactModel)">
+            <summary>
+            Servicio para registrar un nuevo cotacto 
+            </summary>
+            <param name="contact"> Modelo con la información del contacto  </param>
+            <returns>Mensaje y estatus de la acción </returns>  
+            <remarks>
+            Sample request: 
+            
+                POST    
+                {
+                "nombre": "david",
+                "apellidos": "Montes Rodriguez",
+                "telefono": "5534443491",
+                "tipoTel": 3,
+                "email": "davidmr_1312@hotmail.com"
+                }
+                
+            Sample Response
+            
+                { 
+                "message": "El contacto se registró con éxito"
+                }
+            </remarks>
+        </member>
+        <member name="M:WebApiAgenda.Controllers.AdminAgendaController.UpdateCotact(WebApiAgenda.Models.ContactModel)">
+            <summary>
+            Api para actualizar informaci´ñon de un contacto
+            </summary>
+            <param name="contact"></param>
+            <returns></returns>
+            <remarks>
+            Sample request
+                
+                PUT
+                {
+                 "idContact": 1,
+                "nombre": "david",
+                "apellidos": "Montes Rodriguez",
+                "telefono": "5534443491",
+                "tipoTel": "3",
+                "email": "davidmr_1312@hotmail.com"
+                }
+                
+            Sample Response
+            
+                { 
+                "message": "El contacto se actualizo con éxito"
+                }
+            </remarks>
+        </member>
+        <member name="M:WebApiAgenda.Controllers.AdminAgendaController.DeleteCotact(System.Int32)">
+            <summary>
+            Api para eliminar un contacto
+            </summary>
+            <param name="idContact">Id del contacto</param>
+            <returns>Mensaje de respuesta</returns>
+            <remarks>
+            Sample Request 
+            
+                DELETE
+                idContact = 5
+                
+            Sample Response 
+            
+                {
+                "status": false,
+                "mensaje": "El contacto se elimino con éxito"
+                }
+            </remarks>
+        </member>
+        <member name="M:WebApiAgenda.Controllers.AdminAgendaController.SelectAllContacts">
+            <summary>
+            Api para consultar todos los contactos
+            </summary>
+            <returns>Lista de contactos</returns>
+            <remarks>
+            Sample request: 
+            
+                POST
+                El servicio no requiere parametros 
+                
+            Sample Response
+            
+                [
+                 {
+                  "idContact": 1,
+                  "nombre": "david",
+                  "apellidos": "Montes Rodriguez",
+                  "telefono": "5534443491",
+                  "tipoTel": 3,
+                  "email": "davidmr_1312@hotmail.com",
+                  "nombreTipoTel": "Iphone",
+                  "validations": [],
+                  "isValid": true
+                 }
+                ]
+            </remarks>
+        </member>
+        <member name="M:WebApiAgenda.Controllers.AdminAgendaController.SelectAllTypePhone">
+            <summary>
+            Api para consultar todos los tipos de teléfono 
+            </summary>
+            <returns>Retorna lista de tipos</returns>
+            <remarks>
+            Sample request: 
+            
+                POST
+                El servicio no requiere parametros 
+                
+            Sample Response
+            
+                [
+                 {
+                  "idTipoTel": 1,
+                  "nombre": "Celular"
+                 },
+                 {
+                  "idTipoTel": 2,
+                  "nombre": "Casa"
+                 },
+                 {
+                  "idTipoTel": 3,
+                   "nombre": "Iphone"
+                 },
+                 {
+                  "idTipoTel": 4,
+                  "nombre": "Oficina"
+                 }
+                ]
+            </remarks>
+        </member>
+        <member name="T:WebApiAgenda.Models.ContactModel">
+            <summary>
+            Modelo que contiene las propiedades de un contacto 
+            </summary>
+        </member>
+        <member name="P:WebApiAgenda.Models.ContactModel.IdContact">
+            <summary>
+            Identificador unico del contacto 
+            </summary>
+        </member>
+        <member name="P:WebApiAgenda.Models.ContactModel.Nombre">
+            <summary>
+            Nombre del contacto 
+            </summary>
+        </member>
+        <member name="P:WebApiAgenda.Models.ContactModel.Apellidos">
+            <summary>
+            Apellidos del contacto 
+            </summary>
+        </member>
+        <member name="P:WebApiAgenda.Models.ContactModel.Telefono">
+            <summary>
+            Numero telefonico del contacto 
+            </summary>
+        </member>
+        <member name="P:WebApiAgenda.Models.ContactModel.TipoTel">
+            <summary>
+            Tipo de teléfono  
+            </summary>
+        </member>
+        <member name="P:WebApiAgenda.Models.ContactModel.email">
+            <summary>
+            Correo electrónico del contacto 
+            </summary>
+        </member>
+    </members>
+</doc>
